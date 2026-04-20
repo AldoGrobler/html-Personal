@@ -1,0 +1,436 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.gradient-background {  
+background-color: rgba(0, 155, 160, 0.473);
+height: 1200px;
+}
+
+.container01{
+    display: flex;
+    gap: 2rem;
+    background-color: rgba(0, 155, 160, 0.555);
+    margin: 0 auto;
+    list-style-type: none;
+    font-family: "Telex", sans-serif;
+    font-size: x-large;    
+    border-bottom: 2px solid #6d6d6d;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    padding-top: 2rem;   
+}
+
+.homebar{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: x-large;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.homeimage{
+    margin-left: 2rem;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+
+.container02{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;  
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-image{
+ width: 35rem;
+ 
+}   
+
+.intoduction{
+  font-family: "Poiret One", sans-serif;
+  font-style: normal;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #000000af;
+}
+
+.typefont{
+    
+  font-family: "Telex", sans-serif;
+  font-weight:lighter;
+  font-style: normal;
+  font-size: x-large;
+  color: #000000a2;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.profilepicture{
+    border-radius: 50%;   
+    margin-top: 5rem; 
+}
+
+.intro{
+  font-family: "Telex", sans-serif;  
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: larger;
+  
+}
+
+.button-about{
+  border-radius: 50px;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(175, 237, 241);
+  font-family: "Telex", sans-serif; 
+  font-size: larger;
+  margin-top: 50px;
+  border-color: gray;
+  margin-bottom: 2rem;
+  border: none;
+  color: rgba(0, 28, 41, 0.507);
+
+}
+
+
+
+.skilltext{
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Telex", sans-serif;  
+  font-weight: lighter;
+  font-size: 3rem;
+  
+}
+
+.container-04{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 50px;
+  padding-top: 50px; 
+  align-items: flex-start; 
+  padding: 5rem;
+}
+
+.showcaseflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+
+.showcase{
+  width: 9rem;
+  
+}
+
+.titles{
+  font-family: "Telex", sans-serif; 
+  text-align: center;
+}
+
+.workinprogress{
+  background-color: rgb(178, 244, 253);
+}
+
+.projecttext{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.skilltext{
+  font-family: "Telex", sans-serif; 
+}
+
+.container-05{
+  display: flex;
+  align-items: center;   
+  justify-content: center; 
+  gap: 50px; 
+  margin: 50px 0;
+  padding-bottom: 8rem;
+  
+}
+
+.Skills-images{
+  width: 25rem;
+  gap: 20rem;
+  border-radius: 10px;
+}
+
+.Skills-images-03{
+  display: flex;
+  flex-direction:row-reverse ;
+  width: 25rem;
+  gap: 20rem;
+  border-radius: 10px;
+}
+
+.image-03{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20rem;
+}
+
+.image{
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;  
+}
+
+.projecttext{
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+.container-05{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.intouchheader{
+  text-align: center;
+  font-family: "Telex", sans-serif; 
+  color: #017ac0;
+  font-size: 3rem;
+}
+
+.mailbutton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+ border-radius: 50px;
+ padding: 15px;
+ padding-left: 20px;
+ padding-right: 20px;
+ background-color: rgb(175, 237, 241);
+ font-family: "Telex", sans-serif; 
+ font-size: larger; 
+ border-color: gray;
+ margin-bottom: 2rem;
+ border: none;
+ color: rgba(0, 28, 41, 0.507); 
+}
+
+.footer{
+  background-color: rgb(127, 236, 255);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.container-footer{
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icons img{
+  width: 40px;
+  cursor: pointer;
+}
+
+.icons img{
+  display: inline-block;
+}
+
+.footertext{
+  border-top: 1px solid #6d6d6d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.rights{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: small;
+  
+}
+
+.footerparagraph, a{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.mailer{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  padding-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.one:hover{
+color: rgb(0, 111, 238);
+}
+.two:hover{
+color: rgb(0, 111, 238);
+}
+.three:hover{
+color: rgb(0, 111, 238);
+}
+.four:hover{
+color: rgb(0, 111, 238);
+}
+.five:hover{
+color: rgb(0, 111, 238);
+}
+
+
+
+ @media(min-width:412px) and (max-width:915px){
+    body {
+      max-width: 100%;
+      outline: 1px solid red;
+      
+      }
+
+      .projecttext{
+        text-align: center;
+}
+    .container-04{
+      flex-direction: row;
+      max-width: 350px;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      
+    }
+    .gradient-background {  
+    background-color: rgba(0, 155, 160, 0.473);
+    height: 915px;
+    max-width: 800px;  
+    }
+    .hero-image{
+      max-width: 100%;
+    }
+
+    .showcaseflex{
+      width: 6rem;
+    }
+
+    .container-05{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 200px;
+      padding-top: 1rem;
+    }
+    
+    .image{
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 1rem;
+      
+    }
+
+    .Skills-images{
+      display: flex;
+      flex-direction: column;
+      width: 23rem;
+    }
+    .Skills-images-03{
+      display: flex;
+      flex-direction: column;
+      width: 23rem;
+    }
+
+    .image-03{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+.homebar{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: large;
+  align-items: center;
+  justify-content: space-around;
+}
+.footertext{
+  border-top: 1px solid #6d6d6d;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center; 
+  padding-top: 15px;
+  margin-top: 20px;
+  gap: 2rem;
+}
+
+.skilltext{
+ font-size: 2rem;
+ font-weight: bold;
+}
+.maintext{
+  max-width: 350px;
+}
+
+  }
