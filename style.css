@@ -338,7 +338,7 @@ color: rgb(0, 111, 238);
 
 
 
- @media(min-width:319px) and (max-width:480px){
+ @media(min-width:359px) and (max-width:413px){
     body {
       max-width: 100%;
       outline: 1px solid red;
